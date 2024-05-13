@@ -1,0 +1,60 @@
+h1{
+    color: coral;
+    text-align: center;
+    font-size: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 630px;
+}
+table{
+    margin-top: 10px;
+    margin-left: 340px;   
+}
+table tr td{
+    padding: 20px;
+}
+label{
+    color: coral;
+    font-size: 40px;
+}
+input{
+    display: block;
+    padding-left: 60px;
+}
+button{
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    display: block;
+    margin-left: 10px;
+}
+h2{
+    color: coral;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color: coral;
+    font-size: 20px;
+    text-align: center;
+}
+#input{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: coral;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    padding: 0;
+}

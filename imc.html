@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formula.css">
+    <title>IMC</title>
+</head>
+<body>
+    <h1>Calcular el IMC</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="p">Inserte su Peso</label>
+            </td>  
+            <td>
+                <input type="text" id="p">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="e">Inserte su Estatura</label>
+            </td>
+            <td>
+                <input type="text" id="e">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="imc()">Calcular</button>
+            </td>
+            <td>
+                <button type="reset">Reset</button>
+            </td>
+        </tr>
+    </table>
+        <h2>Respuesta</h2>
+        <p id="res" class="respuesta"></p>
+        <p id="est" class="respuesta_est"></p>
+        <a href="index.html" style="width: 50px;"><input type="button" value="Volver" id="input"></a>
+    <script src="java/imc.js"></script>
+</body>
+</html>
